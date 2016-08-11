@@ -1,0 +1,10 @@
+ManifestFileVersion: 0
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: shaderrepo
+      Dependencies:
+        Dependency_0: cube
+    Info_1:
+      Name: cube
+      Dependencies: {}

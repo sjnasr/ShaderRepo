@@ -1,0 +1,17 @@
+/Users/snasr/Documents/ShaderBug/Shaderbug/Temp/bin/Release/UnityEngine.dll
+/Users/snasr/Documents/ShaderBug/Shaderbug/Temp/bin/Release/UnityEditor.dll
+/Users/snasr/Documents/ShaderBug/Shaderbug/Temp/bin/Release/UnityEngine.UI.dll
+/Users/snasr/Documents/ShaderBug/Shaderbug/Temp/bin/Release/UnityEngine.Networking.dll
+/Users/snasr/Documents/ShaderBug/Shaderbug/Temp/bin/Release/Mono.Cecil.dll
+/Users/snasr/Documents/ShaderBug/Shaderbug/Temp/bin/Release/Unity.SerializationLogic.dll
+/Users/snasr/Documents/ShaderBug/Shaderbug/Temp/bin/Release/Unity.DataContract.dll
+/Users/snasr/Documents/ShaderBug/Shaderbug/Temp/bin/Release/ICSharpCode.NRefactory.dll
+/Users/snasr/Documents/ShaderBug/Shaderbug/Temp/bin/Release/Unity.UNetWeaver.dll
+/Users/snasr/Documents/ShaderBug/Shaderbug/Temp/bin/Release/Unity.UNetWeaver.dll.mdb
+/Users/snasr/Documents/ShaderBug/Shaderbug/Temp/bin/Release/Unity.CecilTools.dll
+/Users/snasr/Documents/ShaderBug/Shaderbug/Temp/bin/Release/Mono.Cecil.Pdb.dll
+/Users/snasr/Documents/ShaderBug/Shaderbug/Temp/bin/Release/Mono.Cecil.Mdb.dll
+/Users/snasr/Documents/ShaderBug/Shaderbug/Temp/bin/Release/Assembly-CSharp.dll.mdb
+/Users/snasr/Documents/ShaderBug/Shaderbug/Temp/bin/Release/Assembly-CSharp.dll
+/Users/snasr/Documents/ShaderBug/Shaderbug/obj/Release/Assembly-CSharp.dll
+/Users/snasr/Documents/ShaderBug/Shaderbug/obj/Release/Assembly-CSharp.dll.mdb
