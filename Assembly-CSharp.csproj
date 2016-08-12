@@ -45,6 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\BundleLoader.cs" />
      <Compile Include="Assets\Scripts\CachingLoadExample.cs" />
      <Compile Include="Assets\Scripts\LoadBundle.cs" />
      <Compile Include="Assets\Scripts\NonCachingLoadExample.cs" />

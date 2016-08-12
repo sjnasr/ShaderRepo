@@ -5,6 +5,10 @@ AssetBundleManifest:
       Name: shaderrepo
       Dependencies:
         Dependency_0: cube
+        Dependency_1: sphere
     Info_1:
       Name: cube
+      Dependencies: {}
+    Info_2:
+      Name: sphere
       Dependencies: {}
