@@ -25,6 +25,21 @@ public class BundleLoader : MonoBehaviour {
 			//Debug.Log(scenePath[0]); // -> "Assets/scene.unity"
 			//Application.LoadLevel(scenePath[0]);
 			Instantiate (bundle.LoadAsset(assetName));
+			#if UNITY_5
+			UnityEngine.Object[] mats = Resources.FindObjectsOfTypeAll<Material>();
+			#else
+			UnityEngine.Object[] mats = bundle.LoadAll(typeof(Material));
+			#endif
+			foreach(Material mat in mats) {
+				if(mat.shader) {
+					Shader shaderInBuild = Shader.Find(mat.shader.name);
+					Debug.Log ("Before shader set : " + mat.renderQueue);
+					if (shaderInBuild) {
+						mat.shader = shaderInBuild;
+						Debug.Log ("After shader set : " + mat.renderQueue);
+					}
+				}
+			}
 		}
 	}
 
