@@ -21,6 +21,9 @@ public class BundleLoader : MonoBehaviour {
 		if (assetName == "") {
 			Instantiate (bundle.mainAsset);
 		} else {
+			//string[] scenePath = bundle.GetAllScenePaths();
+			//Debug.Log(scenePath[0]); // -> "Assets/scene.unity"
+			//Application.LoadLevel(scenePath[0]);
 			Instantiate (bundle.LoadAsset(assetName));
 		}
 	}
