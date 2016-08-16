@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3297676261
+CRC: 233443951
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 1196c93e3bc7eaedd4a956a3849e7e09
+    Hash: b0175a4ff5860542678e9a33d7a3f608
   TypeTreeHash:
     serializedVersion: 2
     Hash: cc17b7e87d8e39c3dcf23fd2a164e04a
@@ -58,6 +58,4 @@ ClassTypes:
 Assets:
 - Assets/Scenes/ShaderRepo.unity
 Dependencies:
-- Assets/Demo/cube
-- Assets/Demo/sphere
-- Assets/Demo/cylinder
+- Assets/Demo/prefabs

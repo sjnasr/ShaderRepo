@@ -6,6 +6,6 @@ public class CreateAssetBundles : MonoBehaviour {
 
 	[MenuItem ("Assets/Build AssetBundles")]
 	static void BuildAllAssetBundles(){
-		BuildPipeline.BuildAssetBundles ("Assets/Demo", BuildAssetBundleOptions.None ,BuildTarget.StandaloneOSXUniversal);
+		BuildPipeline.BuildAssetBundles ("Assets/AssetBundles", BuildAssetBundleOptions.None ,BuildTarget.StandaloneOSXUniversal);
 	}
 }
