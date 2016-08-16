@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\BundleLoader.cs" />
+     <Compile Include="Assets\Scripts\Disappear.cs" />
      <Compile Include="Assets\Scripts\LoadBundle.cs" />
      <None Include="Assets\Plugins\Android\res\values\version.xml" />
  <Reference Include="UnityEngine.UI">

@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3953555997
+CRC: 3637852451
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: ee55da4623e875f45c426691ea285ffd
+    Hash: c22c38cd22fabf0d2d8356868e5d6d35
   TypeTreeHash:
     serializedVersion: 2
-    Hash: cc17b7e87d8e39c3dcf23fd2a164e04a
+    Hash: 368ce127c9b4b59dcbda772b9d45c91c
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -43,6 +43,8 @@ ClassTypes:
   Script: {fileID: -619905303, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
 - Class: 114
   Script: {fileID: 1077351063, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c950bd89efee1439980a1e3985768a52, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 124
@@ -60,3 +62,4 @@ Assets:
 Dependencies:
 - Assets/Demo/cube
 - Assets/Demo/sphere
+- Assets/Demo/cylinder

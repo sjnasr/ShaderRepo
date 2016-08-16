@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+CRC: 1615766891
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 212d9e1a988e77e46d540c52ed954f45
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7f10347fa8fea3e17474070920f4b2c3
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: c950bd89efee1439980a1e3985768a52, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/CylinderWScript.prefab
+Dependencies: []

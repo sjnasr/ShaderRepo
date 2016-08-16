@@ -1,16 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Platform/Packages/CDK/Scripts/AssetLoading/PrefabLoader.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BundleLoader.cs">
     <Files>
-      <File FileName="Assets/Scripts/BundleLoader.cs" Line="26" Column="42" />
+      <File FileName="Assets/Editor/CreateAssetBundles.cs" Line="8" Column="37" />
+      <File FileName="Assets/Scripts/BundleLoader.cs" Line="42" Column="9" />
       <File FileName="Assets/Scripts/LoadBundle.cs" Line="1" Column="1" />
-      <File FileName="Assets/Editor/CreateAssetBundles.cs" Line="1" Column="1" />
       <File FileName="Assets/Editor/RenameAssetBundles.cs" Line="1" Column="1" />
       <File FileName="Assets/Editor/GetAssetBundlesName.cs" Line="1" Column="1" />
-      <File FileName="Assets/Platform/Packages/CDK/Scripts/AssetLoading/PrefabLoader.cs" Line="91" Column="26" />
-      <File FileName="Assets/Platform/Packages/CDK/Scripts/AssetLoading/PrefabLoaderManager.cs" Line="1" Column="1" />
-      <File FileName="Assets/Platform/Packages/CDK/Scripts/AssetLoading/Asset.cs" Line="1" Column="1" />
-      <File FileName="Assets/Platform/Packages/CDK/Scripts/AssetLoading/AssetBundleManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Disappear.cs" Line="9" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
