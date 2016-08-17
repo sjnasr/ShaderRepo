@@ -23,9 +23,24 @@ public class LoadBundle : MonoBehaviour {
 			//string[] scenePath = bundle.GetAllScenePaths();
 			//Debug.Log(scenePath[0]); // -> "Assets/scene.unity"
 			//Application.LoadLevel(scenePath[0]);
-			GameObject cylinder;
-			cylinder = bundle.LoadAsset (assetName) as GameObject;
-			Instantiate (cylinder);
+			//Instantiate (bundle.LoadAssetAsync(assetName, typeof(GameObject)));
+			Debug.Log ("Before asset async");
+			AssetBundleRequest request= bundle.LoadAssetAsync(assetName, typeof(GameObject));
+
+			Debug.Log ("After asset async");
+			//yield return request;
+
+			GameObject obj = request.asset as GameObject;
+
+			Debug.Log ("Before Instantiate");
+			Debug.Log ("bundle.mainasset : " + bundle.mainAsset);
+			GameObject newObject = Instantiate (obj) as GameObject;
+			Debug.Log ("After Instantiate");
+
+			newObject.transform.parent = this.transform;
+
+			//bundle.Unload (false);
+
 		}
 	}
 

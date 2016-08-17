@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 478109408
+CRC: 2476966658
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: f32deb5f95f8d7473b6fd22e232e40b9
+    Hash: 7f0f5b162e7e0f3e95cde17767a7462f
   TypeTreeHash:
     serializedVersion: 2
     Hash: ff90a2653639811a2a3d3de6d6fe609b
@@ -33,5 +33,4 @@ Assets:
 - Assets/Resources/Sphere.prefab
 - Assets/Resources/Cube.prefab
 - Assets/Resources/Cylinders.prefab
-- Assets/Resources/TestSphere.prefab
 Dependencies: []

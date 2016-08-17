@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Repo shader.unity
+- path: Assets/Scenes/ShaderRepo.unity
   isLoaded: 1
   isActive: 1
